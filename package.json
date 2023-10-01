@@ -10,6 +10,7 @@
   },
   "private": true,
   "dependencies": {
+    "deploy:ghdocs": "ng build --configuration=production --output-path docs --base-href /psn-store/",
     "@angular/animations": "^14.1.0",
     "@angular/common": "^14.1.0",
     "@angular/compiler": "^14.1.0",
